@@ -1,0 +1,26 @@
+#
+# THIS IS A DEV ENV EXAMPLE TO UP A LOCAL DATABASE 
+#
+
+version: '3.8'
+
+services:
+  crud-php-mysql:
+    container_name: crud-php-mysql
+    image: mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD=true
+      MYSQL_USER=mxdb
+      MYSQL_PASSWORD=mxdb
+      MYSQL_DATABASE=mxdb
+    restart: always
+    ports:
+      - 3333:5432
+    volumes:
+      - ./mysql:/app
+    networks:
+      - crud-mysql-php
+
+networks:
+  crud-mysql-php:
+    driver: bridge
