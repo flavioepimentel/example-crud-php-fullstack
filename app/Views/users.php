@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="script" href="./src/scripts.js">
     <title>Users</title>
+
 </head>
 
 <body>
@@ -27,8 +28,8 @@
                     <td><?php echo $user['lastname'] ?></td>
                     <td><?php echo $user['email'] ?></td>
                     <td>
-                        <?php echo anchor('user/edit/') . $user['id'], 'Editar' ?>
-                        <?php echo anchor('user/delete/') . $user['id'], 'Excluir', ['onclick' => 'return confirma()'] ?>
+                        <?php echo anchor('user/edit/' . $user['id'], 'Editar') ?>
+                        <?php echo anchor('user/delete/' . $user['id'], 'Excluir', ['onclick =>  return confirma()']) ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
@@ -36,6 +37,7 @@
         <?php phpinfo() ?>
     </div>
     <script src="./src/scripts.js"></script>
+
 </body>
 
 </html>

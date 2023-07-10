@@ -17,7 +17,7 @@ class User extends BaseController
     public function getIndex()
     {
         return view('users', [
-            'user' => $this->userModel->findAll()
+            'users' => $this->userModel->findAll()
         ]);
     }
 
