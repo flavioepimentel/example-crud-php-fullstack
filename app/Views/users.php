@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="script" href="./src/scripts.js">
-    <title>Example: CRUD PHP Apache Ignite MySQL</title>
+    <title>Users</title>
 </head>
 
 <body>
