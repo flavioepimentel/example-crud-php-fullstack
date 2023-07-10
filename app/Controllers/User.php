@@ -17,14 +17,18 @@ class User extends BaseController
     public function getIndex()
     {
         return view('users', [
-            'users' => $this->userModel->findAll()
+            'users' => $this->userModel->paginate(10),
+            'pager' => $this->userModel->pager
         ]);
     }
 
-    public function delete($id)
+    public function getDelete($id)
     {
         if ($this->userModel->delete($id)) {
-            echo view('msgs', ['msg' => 'Usuário excluído com sucesso']);
+            echo view('messages', [
+                'message' => 'Usuário excluído com sucesso'
+            ]);
+            <?php echo ancho(base_url(), 'Pagina Inicial') ?>
         } else {
             echo "Erro";
         }

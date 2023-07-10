@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="script" href="./src/scripts.js">
+    <link rel="style" href="./src/style.css">
     <title>Users</title>
-
 </head>
 
 <body>
@@ -29,14 +28,21 @@
                     <td><?php echo $user['email'] ?></td>
                     <td>
                         <?php echo anchor('user/edit/' . $user['id'], 'Editar') ?>
-                        <?php echo anchor('user/delete/' . $user['id'], 'Excluir', ['onclick =>  return confirma()']) ?>
+                        <?php echo anchor('user/delete/' . $user['id'], 'Excluir', ['onclick' =>  'return confirma()']) ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
         </table>
-        <?php phpinfo() ?>
+        <?php echo $pager->links() ?>
     </div>
-    <script src="./src/scripts.js"></script>
+    <script>
+        function confirma() {
+            if (!confirm('Deseja realmente excluir o registro? ')) {
+                return false
+            }
+            return true
+        }
+    </script>
 
 </body>
 
