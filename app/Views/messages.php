@@ -10,7 +10,8 @@
 <body>
     <div>
         <div class="alert alert-info">
-            <?php echo $mensage ?>
+            <?php echo $message ?>
+            <p><?php echo anchor(base_url(), 'Pagina Inicial') ?></p>
         </div>
     </div>
 </body>
