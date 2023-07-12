@@ -28,7 +28,6 @@ class User extends BaseController
             echo view('messages', [
                 'message' => 'Usuário excluído com sucesso'
             ]);
-            <?php echo ancho(base_url(), 'Pagina Inicial') ?>
         } else {
             echo "Erro";
         }
