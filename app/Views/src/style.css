@@ -5,21 +5,21 @@ body {
 #navbar {
     display: flex;
     width: 100%;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     justify-content: end;
-    padding: 5px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-    border: 10px, dotted, green;
-    border-width: 15px;
-    border-color: green;
+    padding: 10px;
+    margin-right: 25px;
 }
 
 nav, ul, li {
     list-style-type: none;
     display: inline;
-    
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(56, 55, 65);
 }
 
 section {
@@ -28,27 +28,52 @@ section {
 }
 
 .welcome__text {
-    background-color: blueviolet;
+    background-color: rgb(43, 195, 226);
     width: 50%;
+    border-radius: 0px 20px 20px 0px;
 } 
 
 .welcome__image {
     background: no-repeat;
     background-image: linear-gradient(
     to bottom,
-    rgba(156, 156, 79, 0.5),
-    rgba(102, 102, 239, 0.5)
+    rgba(231, 240, 204, 0.201),
+    rgba(51, 72, 99, 0.522)
   ), url("https://img.freepik.com/free-photo/men-hiking-foggy-mountain-trail-generated-by-ai_188544-27060.jpg?t=st=1689100061~exp=1689103661~hmac=3441cef130cfbbc5fa835a45704faaca72ab195b037c388ade09ebe68a745e13&w=1380");
-    height: auto;
     width: 50%;
+    background-position: center
 }
-
 
 p {
-    width: 40%;
-    margin-left: 15px;
+    width: 65%;
+    margin-left: 32px;
+    margin-top: 48px;
 }
 
-#teste {
-    background-color: blue;
+.call__to__action p {
+    font-style: italic;
+}
+h2 {
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .13em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    0% { border-color: rgb(0, 0, 0); }
 }
