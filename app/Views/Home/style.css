@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+}
+
+body {
+    flex-direction: row;
+    height: 85%;
+}
+
+section {
+    display: flex;
+    height: 100%;
+}
+
+.welcome__text {
+    background-color: rgb(62, 220, 252);
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+    float: left;
+    margin-right: -23px;
+    box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.552);
+    border-right: 2px solid rgb(137, 137, 139);
+    border-bottom: 2px solid rgb(137, 137, 139);
+} 
+
+.welcome__image {
+    z-index:-1;
+    background: no-repeat;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(231, 240, 204, 0.23),
+    rgba(51, 77, 99, 0.455)), 
+      url("https://img.freepik.com/free-photo/men-hiking-foggy-mountain-trail-generated-by-ai_188544-27060.jpg?t=st=1689100061~exp=1689103661~hmac=3441cef130cfbbc5fa835a45704faaca72ab195b037c388ade09ebe68a745e13&w=1380");
+    width: 65%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    border-bottom-color: rgb(227, 181, 45);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.welcome__text p {
+    width: 65%;
+    margin-left: 32px;
+    margin-top: 48px;
+}
+
+.call__to__action {
+    margin-left: 20%;
+}
+
+h2 {
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    /*Ensuresthecontentisnotrevealeduntiltheanimation*/border-right: .15em solid rgb(0, 0, 0);
+    /*Thetypwritercursor*/white-space: nowrap;
+    /*Keepsthecontentonasingleline*/letter-spacing: .13em;
+    /*Adjustasneeded*/animation:       typing 3.5s steps(40, start) 1s 1 normal both,      blink-caret .75s step-end infinite normal;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+
+/* The typing effect */
+@keyframes typing {
+    65% { width: 95% }
+    35% { width: 0%}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    50% { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0); }
+}
+
