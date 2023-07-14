@@ -16,7 +16,7 @@ class User extends BaseController
 
     public function getIndex()
     {
-        return view('users', [
+        return view('Users/users', [
             'users' => $this->userModel->paginate(10),
             'pager' => $this->userModel->pager
         ]);
