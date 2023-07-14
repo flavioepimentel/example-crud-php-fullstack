@@ -32,7 +32,7 @@ define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR)
 /**
  * See https://www.php.net/manual/en/function.str-contains.php#126277
  */
-if (! function_exists('str_contains')) {
+if (!function_exists('str_contains')) {
     /**
      * Polyfill of str_contains()
      */
@@ -64,7 +64,10 @@ class preload
                 '/system/Publisher/',
                 '/system/ComposerScripts.php',
                 '/Views/',
-                '/Views/src'
+                '/Views/src',
+                '/Views/Users',
+                '/Views/Home',
+                '/Views/Messages',
                 // Errors occur.
                 '/system/Config/Routes.php',
                 '/system/ThirdParty/',
