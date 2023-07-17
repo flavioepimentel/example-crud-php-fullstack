@@ -16,7 +16,7 @@ class User extends BaseController
 
     public function getIndex()
     {
-        return view('Users/users', [
+        return view('Users/Users', [
             'users' => $this->userModel->paginate(10),
             'pager' => $this->userModel->pager
         ]);
@@ -25,7 +25,7 @@ class User extends BaseController
     public function getDelete($id)
     {
         if ($this->userModel->delete($id)) {
-            echo view('Messages/messages', [
+            echo view('Messages/Messages', [
                 'message' => 'Usuário excluído com sucesso'
             ]);
         } else {
@@ -36,7 +36,7 @@ class User extends BaseController
     public function postCreate()
     {
         if ($this->userModel->save($this->request->getPost())) {
-            return view('Messages/messages', [
+            return view('Messages/Messages', [
                 'message' => 'Usuário criado com sucesso.'
             ]);
         } else {
