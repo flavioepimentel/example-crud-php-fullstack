@@ -37,7 +37,7 @@
     <section>
         <div class="welcome__text">
             <h2>Bem Vind@! 🥾🎒🧗‍♂️🚵‍♀️🏕️🗺️</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quas natus
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quas natus
                 perferendis repellat ea magni doloremque sapiente debitis iure
                 voluptatum explicabo? Voluptatem cumque tempore aperiam velit re.
             </p>

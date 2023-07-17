@@ -13,7 +13,7 @@
     <div>
         <div class="alert alert-info">
             <?php echo $message ?>
-            <p><?php echo anchor(base_url(), 'Pagina Inicial') ?></p>
+            <p><?php echo anchor(base_url('/user'), 'Retornar') ?></p>
         </div>
     </div>
 </body>

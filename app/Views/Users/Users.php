@@ -36,13 +36,19 @@
         </div>
     </header>
     <section>
-        <form action="">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="email" placeholder="E-mail">
-            <button>Confimar Presença</button>
-        </form>
+        <div class='form__invited'>
+            <?php echo form_open('user/Create/') ?>
+            <?php $data = ['type' => 'text', 'placeholder' => 'Name', 'required' => true];
+            echo form_input($data) ?>
+            <?php $data = ['type' => 'text', 'placeholder' => 'First Name', 'required' => true];
+            echo form_input($data) ?>
+            <?php $data = ['type' => 'text', 'placeholder' => 'Last Name', 'required' => true];
+            echo form_input($data) ?>
+            <?php $data = ['type' => 'email', 'placeholder' => 'E-mail', 'required' => true];
+            echo form_input($data) ?>
+            <?php echo form_submit('mysubmit', 'Confimar Presença', 'class="submit"'); ?>
+            <?php echo form_close(); ?>
+        </div>
     </section>
     <div class="container mt-5">
         <table class='table'>
