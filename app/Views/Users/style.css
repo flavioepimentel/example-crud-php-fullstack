@@ -1,5 +1,28 @@
 html {
-    background-color: rgb(203,203,203);
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.form__invited {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input, button.submit {
+    border-radius: 9px;
+}
+
+.submit {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 3px 15px 3px 15px;
+
+
 }
 
 ul.pagination li {
