@@ -25,11 +25,22 @@ class User extends BaseController
     public function getDelete($id)
     {
         if ($this->userModel->delete($id)) {
-            echo view('messages', [
+            echo view('Messages/messages', [
                 'message' => 'Usuário excluído com sucesso'
             ]);
         } else {
             echo "Erro";
+        }
+    }
+
+    public function postCreate()
+    {
+        if ($this->userModel->save($this->request->getPost())) {
+            return view('Messages/messages', [
+                'message' => 'Usuário criado com sucesso.'
+            ]);
+        } else {
+            echo "Ocorreu um erro na tentativa de salvar o convidado.";
         }
     }
 }
