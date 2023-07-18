@@ -42,10 +42,10 @@ O aplicativo tem a proposta de demonstrar as 4 operações básicas realizadas e
 
 ### Preview
 
-![Home]('app/Views/src/Captura de tela de 2023-07-18 19-41-08.png')
+![Home]('https://github.com/flavioepimentel/example-crud-php-fullstack/blob/a8feddf7f24284ef64effa44b57104113de362d5/app/Views/src/Captura%20de%20tela%20de%202023-07-18%2019-41-08.png')
 
 
-![User]('app/Views/src/Captura de tela de 2023-07-18 19-41-34.png')
+![User]('https://github.com/flavioepimentel/example-crud-php-fullstack/blob/a8feddf7f24284ef64effa44b57104113de362d5/app/Views/src/Captura%20de%20tela%20de%202023-07-18%2019-41-34.png')
 
 
 ##### 👣 Tutoriais (step-by-step) 
