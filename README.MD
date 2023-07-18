@@ -19,7 +19,7 @@ O aplicativo tem a proposta de demonstrar as 4 operações básicas realizadas e
 
 ### Vídeo Demonstrativo
 
-[![Vídeo demonstrativo do projeto - Comunicação entre Clientes e Servidor]('app/Views/src/view-video-doc.png')]('https://youtu.be/W1sbaf-9MmQ')
+[![Vídeo demonstrativo do projeto - Comunicação entre Clientes e Servidor]('https://youtu.be/W1sbaf-9MmQ')]('app/Views/src/view-video-doc.png')
 
 ## 'Como rodar na minha máquina?' 👨‍💻
 
