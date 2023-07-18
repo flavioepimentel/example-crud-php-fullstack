@@ -19,7 +19,7 @@ O aplicativo tem a proposta de demonstrar as 4 operações básicas realizadas e
 
 ### Vídeo Demonstrativo
 
-[![Vídeo demonstrativo do projeto - Comunicação entre Clientes e Servidor]('https://youtu.be/W1sbaf-9MmQ')]('app/Views/src/view-video-doc.png')
+[Vídeo demonstrativo do projeto - Comunicação entre Clientes e Servidor]('https://youtu.be/W1sbaf-9MmQ')
 
 ## 'Como rodar na minha máquina?' 👨‍💻
 
@@ -45,8 +45,3 @@ O aplicativo tem a proposta de demonstrar as 4 operações básicas realizadas e
 
 - [Como Instalar Linux, Apache, MySQL, PHP (Pilha LAMP) no Ubuntu 20.04]('https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-pt')
 
-##### Start-server
-
-```
-$ php spark serve
-```
