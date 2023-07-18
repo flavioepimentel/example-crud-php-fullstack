@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.form__invited {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input, button.submit {
+    border-radius: 9px;
+}
+
+.submit {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 3px 15px 3px 15px;
+
+
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4caf50;
+    color:white;
+}
+
+ul.pagination li a:houver:not(.active) {
+    background-color: #ddd;
+}

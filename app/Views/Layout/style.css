@@ -1,0 +1,46 @@
+#navbar {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: end;
+    padding: 12px;
+    padding-bottom: 15px;
+    margin-right: 25px;
+    border-width: 2px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgb(74, 77, 91);
+    box-shadow: 0px -4px 9px .02px inset rgba(0, 0, 0, 0.429);
+
+}
+
+nav, ul, li {
+    list-style-type: none;
+    display: inline;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(56, 55, 65);
+}
+
+button.btn__navbar {
+    border: none;
+}
+
+button.btn__navbar:hover {
+    background-color: rgba(113, 113, 141, 0.245);
+}
+
+footer {
+    margin-top: 55px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.txt__footer {
+    font-size: .75rem;
+    line-height:.9rem;
+    margin-bottom: -1px;
+}
