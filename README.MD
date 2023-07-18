@@ -36,7 +36,8 @@ O aplicativo tem a proposta de demonstrar as 4 operações básicas realizadas e
     - [Install]('https://www.mysql.com/downloads/')
     - Load data
     ```
-    mysql --user="username" --database="databasename" --password="yourpassword" < "databa.sample.sql"
+    mysql --user="username" --database="databasename" 
+    --password="yourpassword" < "databa.sample.sql"
     ```
 
 
