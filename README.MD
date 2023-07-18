@@ -40,6 +40,13 @@ O aplicativo tem a proposta de demonstrar as 4 operações básicas realizadas e
     --password="yourpassword" < "databa.sample.sql"
     ```
 
+### Preview
+
+![Home]('app/Views/src/Captura de tela de 2023-07-18 19-41-08.png')
+
+
+![User]('app/Views/src/Captura de tela de 2023-07-18 19-41-34.png')
+
 
 ##### 👣 Tutoriais (step-by-step) 
 - [How to install and configure PHP]('https://ubuntu.com/server/docs/programming-php#:~:text=How%20to%20install%20and%20configure%20PHP%201%20Prerequisites,Configure%20PHP%20...%205%20Test%20your%20setup%20')
