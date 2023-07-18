@@ -29,7 +29,7 @@ class User extends BaseController
                 'message' => 'Usuário excluído com sucesso'
             ]);
         } else {
-            echo "Erro";
+            echo "Erro - Ocorreu um erro na tentativa de excluir o convidado.";
         }
     }
 
@@ -42,5 +42,14 @@ class User extends BaseController
         } else {
             echo "Ocorreu um erro na tentativa de salvar o convidado.";
         }
+    }
+
+    public function getEdit($id)
+    {
+        return view('Users/Users', [
+            'users' => $this->userModel->paginate(10),
+            'pager' => $this->userModel->pager,
+            'editUser' => $this->userModel->find($id)
+        ]);
     }
 }
