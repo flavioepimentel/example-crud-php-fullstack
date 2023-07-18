@@ -26,23 +26,30 @@ O aplicativo tem a proposta de demonstrar as 4 operações básicas realizadas e
 #### 🔗 Links úteis para configurar o ambiete e rodar o projeto na sua máquina
 
 - Docker
-    - [Install]('https://docs.docker.com/get-docker/')
-    - [Build]('https://docs.docker.com/build/guide/mounts/')
+    - [Install](https://docs.docker.com/get-docker/)
+    - [Build](https://docs.docker.com/build/guide/mounts/)
 - PHP
-    - [Download]('https://www.php.net/downloads.php')
+    - [Download](https://www.php.net/downloads.php)
 - Spark
-    - [Download]('https://spark.apache.org/downloads.html')
+    - [Download](https://spark.apache.org/downloads.html)
 - MySQL
-    - [Install]('https://www.mysql.com/downloads/')
+    - [Install](https://www.mysql.com/downloads/)
     - Load data
     ```
     mysql --user="username" --database="databasename" 
     --password="yourpassword" < "databa.sample.sql"
     ```
 
+### Preview
+
+![Home](https://github.com/flavioepimentel/example-crud-php-fullstack/blob/a8feddf7f24284ef64effa44b57104113de362d5/app/Views/src/Captura%20de%20tela%20de%202023-07-18%2019-41-08.png)
+
+
+![User](https://github.com/flavioepimentel/example-crud-php-fullstack/blob/a8feddf7f24284ef64effa44b57104113de362d5/app/Views/src/Captura%20de%20tela%20de%202023-07-18%2019-41-34.png)
+
 
 ##### 👣 Tutoriais (step-by-step) 
-- [How to install and configure PHP]('https://ubuntu.com/server/docs/programming-php#:~:text=How%20to%20install%20and%20configure%20PHP%201%20Prerequisites,Configure%20PHP%20...%205%20Test%20your%20setup%20')
+- [How to install and configure PHP](https://ubuntu.com/server/docs/programming-php#:~:text=How%20to%20install%20and%20configure%20PHP%201%20Prerequisites,Configure%20PHP%20...%205%20Test%20your%20setup%20)
 
-- [Como Instalar Linux, Apache, MySQL, PHP (Pilha LAMP) no Ubuntu 20.04]('https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-pt')
+- [Como Instalar Linux, Apache, MySQL, PHP (Pilha LAMP) no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-pt)
 
